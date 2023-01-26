@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Connect to a server but disable password authentication
+ssh -i ~/.ssh/school ubuntu@3.238.71.250 PubkeyAuthentication=no
